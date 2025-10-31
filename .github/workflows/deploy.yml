@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: self-hosted  # Roda na própria VM!
+    runs-on: [self-hosted, Linux, ARM64] # Roda na própria VM!
     
     steps:
     - name: Checkout do código
